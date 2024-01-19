@@ -100,6 +100,7 @@ include(CMakePackageConfigHelpers)
 
 # Install headers
 install(DIRECTORY include/ruckig DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+install(DIRECTORY third_party/json DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 
 # Install library
 install(TARGETS ruckig
